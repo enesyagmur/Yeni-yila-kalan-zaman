@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  overflow: hidden;
+}
 main {
   display: flex;
   justify-content: center;
@@ -15,8 +18,9 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   width: 100%;
-  height: 500px;
+  height: 600px;
 
   background-position: center;
   background-size: cover;
@@ -79,5 +83,3 @@ main {
     background-color: white;
   }
 }
-
-
